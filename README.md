@@ -14,4 +14,11 @@
 * getComputedStyle			2017/2/3 JavaScriptPoints   windows		
 * Flex布局的知识			2017/2/4 CSS-secret 	    CSS布局
 * Promise对象的链式调用			2017/2/4 JavaScriptPoints   ES6
+
+* webpack基础 模块理解 AMD CommonJS	2017/2/4 Interview-Question 构建工具 webpack入门
+* MVVM 					2017/2/4 Vue
+* new关键字的深入理解机制   		2017/2/2 JavaScriptPoints   面向对象 
+* JavaScript数组去重			2017/2/2 Interview-Question JavaScript试题
+				
+ 
 					
