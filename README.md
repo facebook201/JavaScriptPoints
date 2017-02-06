@@ -1,3 +1,11 @@
+## 优秀连接
+https://leetcode.com/ 			JavaScript刷题网站 练习英语
+http://stackoverflow.com/		提问网站 
+https://www.nowcoder.com/ta/js-assessment/	牛客网 js刷题
+http://blog.jobbole.com/29454/		JavaScript设计模式
+http://www.aliued.com/			阿里巴巴UED
+
+
 ### JavaScript 知识点
 
 * new关键字与构造函数    		2017/2/2 JavaScriptPoints   面向对象 
@@ -23,5 +31,8 @@
 
 * JavaScript获得CSSget和set方法		2017/2/6 JavaScriptPoints   掘金好文
 * 用js求出一个元素最终的bgcolor		2017/2/6 Interview-Question JavaScript试题 腾讯
+* 闭包					2017/2/6 JavaScriptPoints
+
+* vue-resource				2017/2/6 JavaScriptPoints
  
 					
