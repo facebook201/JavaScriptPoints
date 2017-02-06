@@ -20,5 +20,8 @@
 * new关键字的深入理解机制   		2017/2/2 JavaScriptPoints   面向对象 
 * JavaScript数组去重			2017/2/2 Interview-Question JavaScript试题
 				
+
+* JavaScript获得CSSget和set方法		2017/2/6 JavaScriptPoints   掘金好文
+* 用js求出一个元素最终的bgcolor		2017/2/6 Interview-Question JavaScript试题 腾讯
  
 					
