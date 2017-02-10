@@ -63,7 +63,7 @@ Object.defineProperties(person, birth,{
 ### 访问器属性
 访问器不包含数据值，他们包含一对getter和setter函数.
 * 在读取访问器属性时。会调用 getter()
-* 写入访问器属性的时, 会调用setter()\
+* 写入访问器属性的时, 会调用setter()
 访问器属性不能直接定义, 需要使用后面提到的Object.defineProperty 函数定义。访问器属性也有4个特性。
 
 Configurable: 同数据属性

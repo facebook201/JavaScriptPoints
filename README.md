@@ -34,5 +34,10 @@ http://www.aliued.com/			阿里巴巴UED
 * 闭包					2017/2/6 JavaScriptPoints
 
 * vue-resource				2017/2/6 JavaScriptPoints
- 
-					
+
+* 原生js实现Jsonp Ajax			2017/2/8 JavaScriptPoints   掘金好文		
+* Jsonp的过程			         	
+* Object.freeze();			2017/2/8 JavaScript-Advance-Ap/对象/Object
+
+* javascript 内存详解			2017/2/10 JavaScriptPoints 
+* javascript 路由原理			2017/2/10 JavaScriptPoints 面向对象		
