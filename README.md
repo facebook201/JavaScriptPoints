@@ -41,3 +41,20 @@ http://www.aliued.com/			阿里巴巴UED
 
 * javascript 内存详解			2017/2/10 JavaScriptPoints 
 * javascript 路由原理			2017/2/10 JavaScriptPoints 面向对象		
+
+* ES6 扩展运算符			2017/2/13 JavaScriptPoints ES6
+* 闭包详细解析				2017/2/13 JavaScriptPoints 面向对象
+* DOMContentLoad 和 load区别		2017/2/13 JavaScript面试 DOM
+
+
+* DOM 的常见操作			2017/2/14 JavaScript面试 	DOM
+* JavaScript事件机制			2017/2/14 JavaScriptPoints 面向对象 
+
+
+
+
+
+
+
+
+

@@ -37,7 +37,7 @@ var myFn = function(...args){
 lst numbers = [9,8,1,2,0];
 Math.min(...numbers);
 
-//6 结构赋值
+//6 结构赋值s
 
 let {x, y, ...z} = {x: 1, y: 2, a: 3, b: 4};
 console.log(x);     // 1

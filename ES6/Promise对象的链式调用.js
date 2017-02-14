@@ -42,7 +42,7 @@ test.func1().then(function(value){
 
 test.func1().then(function(value){
     console.log(value);
-    test.func2().tehn(function(value){
+    test.func2().then(function(value){
         console.log(value);
         test.func3(funciton(value){
             console.log(value);
