@@ -52,7 +52,7 @@ http://www.aliued.com/			阿里巴巴UED
 
 
 
-
+* jquery对象转化为原生对象
 
 
 
