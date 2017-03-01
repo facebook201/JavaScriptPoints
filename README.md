@@ -54,8 +54,10 @@ http://json.cn/				JSON数据解析
 
 
 * jquery对象转化为原生对象
+* bind函数的实现			2017/2/23 JavaScriptPoints 掘金
 
+* Vue.js学习 				2017/2/23 Vue
 
-
-
-
+* JavaScript函数柯里化详解		2017/2/27 JavaScript-Advance Issues
+ 
+* jQuery源码解析 			2017/2/27 jQuery-
