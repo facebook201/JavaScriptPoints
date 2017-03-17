@@ -13,15 +13,7 @@ function ajax(params){
     params.data = params.data || {};
     // 判断是ajax请求还是 jsonp请求
     var json = params.jsonp ? jsonp(params) : json(params);
-    ajax({
-        url: 'test.php',                 // 请求地址
-        jsonp: 'jsonpcallback',          // 采用jsonp请求 且回调函数名 " jsonpcallback"
-        data: {'b': '异步请求'},          // 传输数据
-        success: function(res){          // 请求成功的回调函数
-            console.log(res);
-        },
-        error: function(error){}
-    });
+   
 
     // jsonp 请求
     function jsonp(params){
