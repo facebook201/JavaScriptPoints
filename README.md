@@ -1,63 +1,60 @@
-## ÓÅĞãÁ¬½Ó
-https://leetcode.com/ 			JavaScriptË¢ÌâÍøÕ¾ Á·Ï°Ó¢Óï
-http://stackoverflow.com/		ÌáÎÊÍøÕ¾ 
-https://www.nowcoder.com/ta/js-assessment/	Å£¿ÍÍø jsË¢Ìâ
-http://blog.jobbole.com/29454/		JavaScriptÉè¼ÆÄ£Ê½
-http://www.aliued.com/			°¢Àï°Í°ÍUED
-http://json.cn/				JSONÊı¾İ½âÎö
+## ä¼˜ç§€è¿æ¥
+https://leetcode.com/ 			JavaScriptåˆ·é¢˜ç½‘ç«™ ç»ƒä¹ è‹±è¯­
+http://stackoverflow.com/		æé—®ç½‘ç«™ 
+https://www.nowcoder.com/ta/js-assessment/	ç‰›å®¢ç½‘ jsåˆ·é¢˜
+http://blog.jobbole.com/29454/		JavaScriptè®¾è®¡æ¨¡å¼
+http://www.aliued.com/			é˜¿é‡Œå·´å·´UED
+http://json.cn/				JSONæ•°æ®è§£æ
 
 
-### JavaScript ÖªÊ¶µã
+### JavaScript çŸ¥è¯†ç‚¹
 
-* new¹Ø¼ü×ÖÓë¹¹Ôìº¯Êı    		2017/2/2 JavaScriptPoints   ÃæÏò¶ÔÏó 
-* let const ES6ÖªÊ¶µã    		2017/2/2 JavaScriptPoints   ES6 
-* Promise Generator  ES6ÖªÊ¶µã	 	2017/2/2 JavaScriptPoints   ES6 
-* ES6 moduleÄÚÈİ	 		2017/2/2 JavaScriptPoints   ES6
-* CSS»ù´¡ÖªÊ¶µã 			2017/2/2 Interview-Question CSSÖªÊ¶µã
-* CSS ÉîÈëÖ®BFC   			2017/2/2 Interview-Question CSSÖªÊ¶µã
-* CSS ÉîÈëÖ®CSSºĞ×Ó IFCµÈµÈ		2017/2/2 Interview-Question CSSÖªÊ¶µã
+* newå…³é”®å­—ä¸æ„é€ å‡½æ•°    		2017/2/2 JavaScriptPoints   é¢å‘å¯¹è±¡ 
+* let const ES6çŸ¥è¯†ç‚¹    		2017/2/2 JavaScriptPoints   ES6 
+* Promise Generator  ES6çŸ¥è¯†ç‚¹	 	2017/2/2 JavaScriptPoints   ES6 
+* ES6 moduleå†…å®¹	 		2017/2/2 JavaScriptPoints   ES6
+* CSSåŸºç¡€çŸ¥è¯†ç‚¹ 			2017/2/2 Interview-Question CSSçŸ¥è¯†ç‚¹
+* CSS æ·±å…¥ä¹‹BFC   			2017/2/2 Interview-Question CSSçŸ¥è¯†ç‚¹
+* CSS æ·±å…¥ä¹‹CSSç›’å­ IFCç­‰ç­‰		2017/2/2 Interview-Question CSSçŸ¥è¯†ç‚¹
 
 
 
-* line-height 				2017/2/3 CSS-secret CSSÊôĞÔ 	
+* line-height 				2017/2/3 CSS-secret CSSå±æ€§ 	
 * getComputedStyle			2017/2/3 JavaScriptPoints   windows		
-* Flex²¼¾ÖµÄÖªÊ¶			2017/2/4 CSS-secret 	    CSS²¼¾Ö
-* Promise¶ÔÏóµÄÁ´Ê½µ÷ÓÃ			2017/2/4 JavaScriptPoints   ES6
+* Flexå¸ƒå±€çš„çŸ¥è¯†			2017/2/4 CSS-secret 	    CSSå¸ƒå±€
+* Promiseå¯¹è±¡çš„é“¾å¼è°ƒç”¨			2017/2/4 JavaScriptPoints   ES6
 
-* webpack»ù´¡ Ä£¿éÀí½â AMD CommonJS	2017/2/4 Interview-Question ¹¹½¨¹¤¾ß webpackÈëÃÅ
+* webpackåŸºç¡€ æ¨¡å—ç†è§£ AMD CommonJS	2017/2/4 Interview-Question æ„å»ºå·¥å…· webpackå…¥é—¨
 * MVVM 					2017/2/4 Vue
-* new¹Ø¼ü×ÖµÄÉîÈëÀí½â»úÖÆ   		2017/2/2 JavaScriptPoints   ÃæÏò¶ÔÏó 
-* JavaScriptÊı×éÈ¥ÖØ			2017/2/2 Interview-Question JavaScriptÊÔÌâ
+* newå…³é”®å­—çš„æ·±å…¥ç†è§£æœºåˆ¶   		2017/2/2 JavaScriptPoints   é¢å‘å¯¹è±¡ 
+* JavaScriptæ•°ç»„å»é‡			2017/2/2 Interview-Question JavaScriptè¯•é¢˜
 				
 
-* JavaScript»ñµÃCSSgetºÍset·½·¨		2017/2/6 JavaScriptPoints   ¾ò½ğºÃÎÄ
-* ÓÃjsÇó³öÒ»¸öÔªËØ×îÖÕµÄbgcolor		2017/2/6 Interview-Question JavaScriptÊÔÌâ ÌÚÑ¶
-* ±Õ°ü					2017/2/6 JavaScriptPoints
+* JavaScriptè·å¾—CSSgetå’Œsetæ–¹æ³•		2017/2/6 JavaScriptPoints   æ˜é‡‘å¥½æ–‡
+* ç”¨jsæ±‚å‡ºä¸€ä¸ªå…ƒç´ æœ€ç»ˆçš„bgcolor		2017/2/6 Interview-Question JavaScriptè¯•é¢˜ è…¾è®¯
+* é—­åŒ…					2017/2/6 JavaScriptPoints
 
 * vue-resource				2017/2/6 JavaScriptPoints
 
-* Ô­ÉújsÊµÏÖJsonp Ajax			2017/2/8 JavaScriptPoints   ¾ò½ğºÃÎÄ		
-* JsonpµÄ¹ı³Ì			         	
-* Object.freeze();			2017/2/8 JavaScript-Advance-Ap/¶ÔÏó/Object
+* åŸç”Ÿjså®ç°Jsonp Ajax			2017/2/8 JavaScriptPoints   æ˜é‡‘å¥½æ–‡		
+* Jsonpçš„è¿‡ç¨‹			         	
+* Object.freeze();			2017/2/8 JavaScript-Advance-Ap/å¯¹è±¡/Object
 
-* javascript ÄÚ´æÏê½â			2017/2/10 JavaScriptPoints 
-* javascript Â·ÓÉÔ­Àí			2017/2/10 JavaScriptPoints ÃæÏò¶ÔÏó		
+* javascript å†…å­˜è¯¦è§£			2017/2/10 JavaScriptPoints 
+* javascript è·¯ç”±åŸç†			2017/2/10 JavaScriptPoints é¢å‘å¯¹è±¡		
 
-* ES6 À©Õ¹ÔËËã·û			2017/2/13 JavaScriptPoints ES6
-* ±Õ°üÏêÏ¸½âÎö				2017/2/13 JavaScriptPoints ÃæÏò¶ÔÏó
-* DOMContentLoad ºÍ loadÇø±ğ		2017/2/13 JavaScriptÃæÊÔ DOM
-
-
-* DOM µÄ³£¼û²Ù×÷			2017/2/14 JavaScriptÃæÊÔ 	DOM
-* JavaScriptÊÂ¼ş»úÖÆ			2017/2/14 JavaScriptPoints ÃæÏò¶ÔÏó 
+* ES6 æ‰©å±•è¿ç®—ç¬¦			2017/2/13 JavaScriptPoints ES6
+* é—­åŒ…è¯¦ç»†è§£æ				2017/2/13 JavaScriptPoints é¢å‘å¯¹è±¡
+* DOMContentLoad å’Œ loadåŒºåˆ«		2017/2/13 JavaScripté¢è¯• DOM
 
 
+* DOM çš„å¸¸è§æ“ä½œ			2017/2/14 JavaScripté¢è¯• 	DOM
+* JavaScriptäº‹ä»¶æœºåˆ¶			2017/2/14 JavaScriptPoints é¢å‘å¯¹è±¡ 
 
-* jquery¶ÔÏó×ª»¯ÎªÔ­Éú¶ÔÏó
-* bindº¯ÊıµÄÊµÏÖ			2017/2/23 JavaScriptPoints ¾ò½ğ
-
-* Vue.jsÑ§Ï° 				2017/2/23 Vue
-
-* JavaScriptº¯Êı¿ÂÀï»¯Ïê½â		2017/2/27 JavaScript-Advance Issues
+* jqueryå¯¹è±¡è½¬åŒ–ä¸ºåŸç”Ÿå¯¹è±¡
+* bindå‡½æ•°çš„å®ç°			2017/2/23 JavaScriptPoints æ˜é‡‘
+* Vue.jså­¦ä¹  				2017/2/23 Vue
+* JavaScriptå‡½æ•°æŸ¯é‡ŒåŒ–è¯¦è§£		2017/2/27 JavaScript-Advance Issues
  
-* jQueryÔ´Âë½âÎö 			2017/2/27 jQuery-
+* jQueryæºç è§£æ 			2017/2/27 jQuery-
+* å…³äºå›è°ƒå‡½æ•°çš„äº‹æƒ… / æ€ä¹ˆæ‹¿åˆ°å¼‚æ­¥å‡½æ•°çš„å€¼	 Â  Â  Â  Â  Â   2017/3/27 æ˜é‡‘å¥½æ–‡ *
