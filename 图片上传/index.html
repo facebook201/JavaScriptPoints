@@ -11,6 +11,31 @@
 			width: 300px;
 			border: 1px dashed red;
 		}
+
+		button {
+			border: none;
+			background-color: #4090ff;
+			padding: 7px 20px;
+			color: #fff;
+			font-size: 14px;
+			border-radius: 4px;
+			outline: none;
+			cursor: pointer;
+		}
+		#triggerUploadPic {
+			display: none;
+		}
+		.list {
+			display: inline-block;
+			height: 200px;
+			width: 200px;
+			margin: 0 20px;
+		}
+		.list img {
+			display: block;
+			height: 100%;
+			width: 100%;
+		}
 	</style>
 </head>
 <body>
@@ -21,57 +46,61 @@
 		拖动文件夹到此上传
 	</div>
 
+	<section>
+		<h1>1、手动上传图片</h1>
+		<input type="file" id="triggerUploadPic">
+		<button class="upload-btn" id="upload-btn">上传图片</button>
+
+		<div class="pci-lists">
+			<ul id="imagelists">
+
+			</ul>
+		</div>
+	</section>
+
 <script>
 
-	let upload = document.getElementById('upload');
+	// 手动上传图片
+	let uploadBtn = document.querySelector('.upload-btn');
+	let triggerUploadPic = document.getElementById('triggerUploadPic');
+	let imagelists = document.getElementById('imagelists');
 
-	upload.addEventListener('dragover', handleUpload, false);
-	upload.addEventListener('drop', handleUpload, false);
+	let url = 'https://jsonplaceholder.typicode.com/posts';
 
-	function handleUpload(event) {
-		event.preventDefault();
-		if (event.type === 'drop') {
-			let items = event.dataTransfer.items;
-			let i = 0, length = items.length;
-			while(i < length) {
-				let item = items[i] && items[i].webkitGetAsEntry();
-				if (item && item.isDirectory) {
-					// 如果是文件夹
-					readDirectory(item);
-				}
-				i++;
+	uploadBtn.addEventListener('click', function(event){
+		triggerUploadPic.click();
+	}, false);
+
+	triggerUploadPic.addEventListener('change', function(event){
+		let files = event.target.files;
+		let i = 0, len = files.length;
+
+		let formdata = new FormData();	
+
+		while(i < len) {
+			if (/image/.test(files[i].type)) {
+				// URL.createObjectURL 读取直接返回地址
+				const li = document.createElement('li');
+				const img = document.createElement('img');
+				li.classList.add('list');
+				img.src = URL.createObjectURL(files[i]);
+				li.appendChild(img);
+				imagelists.appendChild(li);
+				formdata.append('file'+ i, files[i]);
 			}
+			i++;
 		}
-	}
-	function readDirectory(directory) {
-		let fileReader = directory.createReader();
-		const result = [];
-		let doBatch = function doBatch() {
-			// 批次读取
-			console.log(fileReader);
-			// 这里就不支持了
-			fileReader.readEntries(entries => {
-				console.log(2, entries);
-				if (entries.length) {
-					return;
-				}
-				entries.forEach(e => {
-					if (e && e.isDirectory) {
-						readDirectory(e);
-					}
-				});
-				doBatch();
-			});
-		}
-		doBatch();
-	}
+		let xhr = new XMLHttpRequest();
+		xhr.open('POST', url);
+		xhr.onload = function() {
+			console.log(xhr);
+		};
+		xhr.send(formdata);
+		// 
 
-
-
+	}, false);
 
 
 </script>
-
-
 </body>
 </html>

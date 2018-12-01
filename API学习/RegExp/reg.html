@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+
+function getparamName(attr) {
+  // 如果有hash 就使用hash 如果没有hash 就使用search
+  let match = RegExp(`[?&]${attr}=([^&]*)`).exec(window.location.search);
+
+  console.log(match);
+
+  return match && decodeURIComponent(match[1].replace(/\+/g, ' ')); // url中+表示空格 替换掉
+}
+
+console.log(getparamName('name'));
+
+
+var result = /(\d+)-(\w+)/.exec('12-ab');
+
+console.log(result); // ["12-ab", "12", "ab", index: 0, input: "12-ab"] 
+
+
+
+var reg = /\d/g,
+    result = [],
+    crt;
+
+while((crt = reg.exec('a123')) !== null) {
+  result = result.concat(crt);
+}
+
+result; // [1, 2, 3]
+
+
+
+
+
+</script>
+</body>
+</html>
